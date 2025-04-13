@@ -1,0 +1,85 @@
+#! /bin/bash
+
+
+create_file()
+{
+    
+}
+
+create_directory()
+{
+
+}
+
+delete_file_directory()
+{
+
+}
+
+rename_file_directory()
+{
+
+}
+
+move_file()
+{
+
+}
+
+
+change_access_right()
+{
+
+}
+
+change_owner_group()
+{
+
+}
+
+
+
+
+
+while true;
+do
+        echo "<      work with files     >"
+        echo "1. Create file"
+        echo "2. Create directory"
+        echo "3. Delete file or directory"
+        echo "4. Rename file or directory"
+        echo "5. Move file or directory"
+        echo "6. Change access right"
+        echo "7. Change owner/group"
+        echo "8. Exit"
+        echo "\n Select choice"
+        read choice
+
+        case $choice in
+                1)
+                        ;;
+                2)
+                        ;;
+                3)
+                        ;;
+                4)
+                        ;;
+                5)
+                        ;;
+                6)
+                        ;;
+                7)
+                        ;;
+                8)
+                        ;;
+                *) 
+                        echo ""
+                        break
+                        ;;
+        esac
+done
+
+echo "=========   The End   =========="
+
+exit 0;
+
